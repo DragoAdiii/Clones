@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+/* header navbar */
+
+.navbar{
+    height: 60px;
+    background-color: #232f3f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* amazon logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* location box */
+
+.add-first{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: .85rem;
+}
+
+.add-second{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* search bars and logo */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(226, 197, 32);
+    width: 620px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color: rgb(211, 132, 22);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* signin bar*/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700 ;
+}
+
+/* 2nd Panel */
+
+.panel{
+    height: 40px;   
+    background-color: #232f3f;
+    opacity:0.9;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+
+.hero-section{
+    background-image: url(Gifts.jpg);
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: #000000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #c5cac9;
+}
+
+.box{
+    background-color: white;
+    border: none;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 22%;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+
+/* Footer */
+
+
+footer{
+    margin-top: 10px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+.foot-panel2{
+    display: flex;
+    color: white;
+    background-color: #222f3d ;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.foot-panel3{
+    background-color:#222f3d ;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    color: white;
+    background-color: #10161d;
+    opacity: .94;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 3px;
+
+}
